@@ -1,0 +1,16 @@
+{
+	"manifest_version" : 2,
+	"name" : "pitchShift",
+	"version" : "1.0",
+	"description" : "A simple pitch audio pitch shifter",
+	"permissions" : ["tabCapture", "activeTab", "tabs"],
+	"background" : {
+		"scripts" : ["background.js"],
+		"persistent" : false
+	},
+	"browser_action" : {
+		"default_group" : "popup.html",
+		"default_icon" : "icon.png"
+	}
+	
+}
